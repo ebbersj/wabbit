@@ -1,0 +1,32 @@
+{
+
+  "name": "wabbit",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/ebbersj/wabbit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "boom": "^5.1.0",
+    "glue": "^4.1.0",
+    "joi": "^10.5.2",
+    "joi-json": "^2.0.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "lab": "^13.1.0",
+    "should": "^11.2.1",
+    "sinon": "^2.3.2"
+  }
+}

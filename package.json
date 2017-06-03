@@ -1,5 +1,4 @@
 {
-
   "name": "wabbit",
   "version": "1.0.0",
   "description": "",
@@ -16,6 +15,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "boom": "^5.1.0",
+    "config": "^1.26.1",
     "glue": "^4.1.0",
     "joi": "^10.5.2",
     "joi-json": "^2.0.1",

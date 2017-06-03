@@ -1,0 +1,39 @@
+{
+  "routes": [
+    {
+      "handler": "./routes/test",
+      "method": "POST",
+      "path": "/test",
+      "validation": {
+        "payload": {
+          "firstName": {
+            "@type": "string",
+            "min": 1,
+            "max": 60,
+            "required": true
+          },
+          "lastName": {
+            "@type": "string",
+            "min": 1,
+            "max": 60,
+            "required": true
+          }
+        }
+      }
+    },
+    {
+      "handler": "./routes/test",
+      "method": "GET",
+      "path": "/test2"
+    }
+  ],
+  "server" : {
+    "connections": [
+      {
+        "host": "localhost",
+        "labels": ["api"],
+        "port": 3000
+      }
+    ]
+  }
+}
